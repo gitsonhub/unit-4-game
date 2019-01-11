@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Crystal Game</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+
+
+</head>
+<body>
+  <h1>Crystal Collector Game</h1>  
+  <p id = "instructions">
+      You will be given a random number at the start of the game.<br>
+      There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score. <br>
+      You win the game by matching your total score goes above the ramdon number.<br>
+      The value of each crystal is hidden from you until you click on it.<br>
+      Each time when the game starts, the game will change the values of each crystal.<br>
+      Have fun !!!
+  </p>
+  <div id="numToGuessBox"><h1>Number to Guess: <span id="number-to-guess"></span></h1></div>
+  <div id="yourScoreBox"><h1>Your Score: <span id ="your-score"></span></h1></span></div>
+  <div id="wins-losses"><h2>Wins: 0<br>Losses: 0 </h2></div>
+  <!-- Note that this div is now empty. We will fill it dynamically -->
+  <div id="crystals">
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="javascript/game.js"></script>
+    <!-- <img src="images/blue.jpg" class=crystalImg id="first" alt="Blue">
+	<img src="images/purple.jpg" class=crystalImg id="second" alt="Purple">
+	<img src="images/red.jpg" class=crystalImg id= "third" alt="Red">
+	<img src="images/orange.jpg" class=crystalImg id= "fourth" alt="Orange"> -->
+  </div>
+  </body>
+  </html> 
