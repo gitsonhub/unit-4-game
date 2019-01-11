@@ -1,6 +1,6 @@
-.crystal-image {
-  width: 300px;
-  height: 300px;
+.crystalImg {
+  width: 280px;
+  height: 280px;
 }
 
 body {
@@ -8,4 +8,7 @@ body {
     color: white;
 }
 
+h1, h2, p, #crystals{
+    text-align: center;
+} 
 
